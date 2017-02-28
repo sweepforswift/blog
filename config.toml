@@ -1,8 +1,0 @@
-languageCode = "en-us"
-title = "Sweep for Swift blog"
-baseurl = "http://example.org/"
-contentDir = "content"
-layoutDir = "layouts"
-publishDir = "public"
-buildDrafts = false
-canonifyURLs = true

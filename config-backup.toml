@@ -1,0 +1,38 @@
+languageCode = "en-us"
+title = "Sweep for Swift blog"
+theme = "hugo-incorporated"
+baseurl = "http://example.org/"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+canonifyURLs = true
+
+[params]
+  [inc]
+    # Blog Information
+    title =       "Sweep for Swift blog"
+    subtitle =    "Modern Hugo based blog for companies"
+    cover_image = "blog-cover.jpg"
+    logo =        "logo.png"
+    
+    # Company information
+    company =     "Sweep for Swift"
+    url =         "http://example.com/"
+    about_link =   "http://example.com/about/"
+    
+    # Product Information
+    product_link = "http://example.com/"
+    tagline =     "Sweeping away the mess of iOS development."
+    
+    # Comments
+    [disqus]
+      # Set a shortname to enable disqus comments
+#      shortname =  false
+    
+    # Sharing settings
+    [sharing]
+      twitter =   false
+      facebook =  false
+      gplus =     false
+      hn =        false

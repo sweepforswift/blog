@@ -1,0 +1,73 @@
+---
+
+baseurl:            http://example.com/
+pygmentsuseclasses: true
+theme:              hugo-incorporated
+PygmentsCodeFences: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  series: "series"
+  authors: "authors"
+
+params:
+  inc:
+    # Blog Information
+    title:        "Sweep for Swift"
+    subtitle:     "Sweeping away the mess of iOS development."
+    cover_image:  blog-cover.jpg
+    logo:         logo.png
+    
+    # Company information
+    company:      "Sweep for Swift Project" 
+    url:          http://example.com/
+#    facebook:     
+    github:       sweepforswift
+#    twitter:      nw_iw
+#    gplus:        ''
+    about_link:   http://example.com/about/
+    
+    # Product Information
+    product_link: http://example.com/
+    tagline:      "Sweeping away the mess of iOS development."
+    
+    # Comments
+    #disqus:
+      # Set a shortname to enable disqus comments
+#      shortname:  false
+    
+    # Sharing settings
+    #twitter:    true
+    #facebook:   true
+    #gplus:      true
+    #hn:         true
+
+    sharing:
+      twitter:    true
+      facebook:   true
+      gplus:      true
+      hn:         true
+      
+    
+
+# author:
+#   michael:
+#     id: "Michael"                            # author's id/short name'
+#     firstName: "Michael"                    # author's first name
+#     lastName: "Smith Jr"                    # author's last name
+#     displayName: "Michael"                   # author's prefered display name
+#     location: "Columbia, MO"                # author's whereabouts
+#     bio: "trying to leave things better than I found them."  # short bio, appears below author details on post
+#     thumbnail: "/img/ME.jpg"            # author's avatar
+   
+# menu:
+#   main:
+#     - name: "Blog"                          # name that appears in the menu list
+#       weight: -120                          # order it appears more negative == closer to top of list
+#       identifier: "blog"                    #
+#       url: "/"                              # link address to use when user clicks on menu option
+#     - name: "About"
+#       weight: -110
+#       identifier: "about"
+#       url: "/about"
